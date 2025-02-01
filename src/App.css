@@ -80,17 +80,11 @@ button {
     background-color: #fae900;     /* Darker green on hover */
     transform: translateY(-2px);   /* Slight lift effect */
   }
-  
 
-  
   h2 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 
-  }
-
-  .gap {
-    margin-left: 1rem;
   }
 
   h1 {
@@ -98,13 +92,10 @@ button {
     text-align: center;
   }
 
-  /* Apply the fantasy font to the entire page */
-body {
+  body {
     font-family: 'Luminari','Fantasy', 'Trebuchet MS', sans-serif;
   }
-  
-  /* Apply the fantasy font to specific elements */
-  h2 {
+    h2 {
     font-family: 'Luminari', 'Fantasy', 'Trebuchet MS', sans-serif;
   }
   

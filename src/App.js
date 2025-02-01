@@ -37,10 +37,9 @@ export default function App() {
         {isVisible ? "Hide All Buttons" : "Show All Buttons"}
       </button>
       {isVisible && <button class="gap" onClick={toggleText}>Toggle Text</button>}</div>
-      {/* Iterate through the storyBeatsArray and create a Beat component for each item */}
       {storyBeatsArray.map((beat) => (
         <Beat
-          key={beat.name} // Unique key for each Beat
+          key={beat.name}
           name={beat.name}
           description={beat.description}
           purpose={beat.purpose}
