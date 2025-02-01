@@ -79,7 +79,7 @@ export default function Beat({
             {isVisible && (
               <>
                 <button className="saveButton" onClick={toggleEditing}>Save</button>
-                <button className="deleteButton" onClick={handleDelete}>Delete</button>
+                <button className="deleteButton gap" onClick={handleDelete}>Delete</button>
               </>
             )}
           </div>
@@ -87,10 +87,7 @@ export default function Beat({
           <div>
             <p>{inputText}</p>
             {isVisible && (
-              <>
                 <button onClick={toggleEditing}>Edit</button>
-                <button className="deleteButton" onClick={handleDelete}>Delete</button>
-              </>
             )}
           </div>
         )
