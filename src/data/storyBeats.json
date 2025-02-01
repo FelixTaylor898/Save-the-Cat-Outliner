@@ -1,0 +1,62 @@
+{
+  "Opening Image": {
+    "description": "The opening image sets the stage for the story by showing the protagonist’s world before any change or conflict has occurred. It represents the \"status quo\" and provides insight into the character’s life, personality, and environment. This beat helps the audience understand where the protagonist is starting from and what needs to be transformed.",
+    "purpose": "Establish the protagonist's ordinary world and what will eventually be disrupted."
+  },
+  "Theme Stated": {
+    "description": "The theme stated is the beat where the central theme of the story is hinted at or explicitly mentioned. This theme is typically revealed by a secondary character and gives the audience an idea of the deeper meaning or message the protagonist will grapple with throughout the story.",
+    "purpose": "Establish the story’s underlying theme or moral that will unfold as the protagonist faces challenges and growth."
+  },
+  "Set-up": {
+    "description": "This beat introduces the protagonist, their world, and the stakes of the story before the main conflict begins. It lays the groundwork by presenting the key players, setting, and background details. The setup will also hint at or introduce the major problem the protagonist will face, though it is not yet fully realized.",
+    "purpose": "Set up the protagonist's situation and the world they inhabit, establishing the stakes and conflict."
+  },
+  "Catalyst": {
+    "description": "The catalyst is the inciting incident that disrupts the protagonist’s world. It forces them to confront the main conflict and sets the events of the story in motion. This beat often happens right after the setup and serves as a wake-up call for the protagonist, making it clear that something must change.",
+    "purpose": "Disrupt the status quo and trigger the protagonist's need for change."
+  },
+  "Debate": {
+    "description": "In the debate beat, the protagonist struggles with whether or not to engage with the challenge ahead. It’s a period of indecision where they question the situation, the stakes, and whether they’re ready to take on what’s coming. Often, this moment presents the protagonist with doubt and internal conflict.",
+    "purpose": "The protagonist experiences doubt or indecision, leading to a moment of choice."
+  },
+  "Break into Two": {
+    "description": "This beat marks the protagonist’s decision to move forward with the challenge and step into a new world or situation. The protagonist often makes a bold choice or commitment here, leaving behind their old life or mindset and embracing the unknown.",
+    "purpose": "This beat represents the decision to act, pushing the protagonist into the second act of the story."
+  },
+  "B Story": {
+    "description": "The B Story is a subplot that runs parallel to the main storyline. It often focuses on a secondary character or a relationship that helps the protagonist grow. This subplot provides depth, balance, and emotional contrast to the main story. In many cases, the B story reinforces the theme or mirrors the protagonist's own journey.",
+    "purpose": "Supports the main plot by providing emotional depth or thematic resonance."
+  },
+  "Fun and Games": {
+    "description": "The fun and games beat represents the \"promise of the premise.\" This is where the protagonist engages with the new world or situation and experiences the highs and lows of their challenge. This section often includes moments of excitement, exploration, or discovery, and can have a more adventurous or light-hearted tone.",
+    "purpose": "The protagonist explores their new reality, often encountering successes and setbacks."
+  },
+  "Midpoint": {
+    "description": "The midpoint is a pivotal moment where a significant twist, revelation, or event changes the course of the story. It raises the stakes, shifts the protagonist’s goal, or forces them to reevaluate their approach. The midpoint often acts as the emotional high point or turning point in the narrative.",
+    "purpose": "A major turning point that increases the stakes and may redefine the protagonist's purpose."
+  },
+  "Bad Guys Close In": {
+    "description": "During this beat, external or internal opposition begins to intensify. The protagonist faces increasing challenges, and the forces working against them become more threatening. It’s the phase where everything seems to be falling apart, and the protagonist is under increasing pressure.",
+    "purpose": "The protagonist faces increasing pressure from both internal and external forces."
+  },
+  "All is Lost": {
+    "description": "The “All is Lost” moment is when the protagonist hits their lowest point. It’s a moment of despair where it seems like there’s no hope left. Often, this moment is symbolized by the “whiff of death,” where the protagonist faces a great personal loss or setback.",
+    "purpose": "The protagonist reaches their lowest point emotionally or physically, often followed by a moment of clarity."
+  },
+  "Dark Night of the Soul": {
+    "description": "In the Dark Night of the Soul beat, the protagonist reflects on their failures and the lessons they’ve learned. This moment is often quiet and introspective, where the character must confront their doubts and fears. It’s a time of reckoning and preparation for the final showdown.",
+    "purpose": "A time for reflection and self-discovery, often before the final act of the story."
+  },
+  "Break into Three": {
+    "description": "The Break into Three beat marks the moment when the protagonist finds a solution or insight to overcome the main conflict. It’s often inspired by the B Story or by a character’s newfound strength. At this point, the protagonist is ready to face the antagonist or conflict head-on.",
+    "purpose": "A new perspective or idea leads the protagonist toward the final resolution."
+  },
+  "Finale": {
+    "description": "The Finale is the climax of the story, where the protagonist uses everything they’ve learned to resolve the main conflict. This is the ultimate showdown between the protagonist and antagonist, where the protagonist faces their greatest challenge and comes out transformed. The final conflict often resolves both the A and B stories.",
+    "purpose": "The protagonist faces the final challenge and resolves the conflict."
+  },
+  "Final Image": {
+    "description": "This is the very last moment or scene of the story, providing a visual or symbolic representation of the protagonist's transformation. It serves as a reflection of how the character has changed from the beginning of the story to the end. The final image contrasts with the Opening Image, showcasing how the protagonist has grown or evolved.",
+    "purpose": "A moment that shows how the protagonist has transformed, visually representing the journey."
+  }
+}

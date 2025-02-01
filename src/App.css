@@ -1,0 +1,118 @@
+/* Ensure body takes full width of the viewport */
+html, body {
+    margin: 0;    /* Remove default margin */
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    height: 100%;  /* Ensure the body takes up the full height */
+    background-color: #f25920;
+}
+
+/* Content wrapper with fixed width */
+.content {
+    width: 60vw;    /* Set the width to 65% of the viewport width */
+    max-width: 60vw; /* Set the maximum width to 65% of the viewport width */
+    min-width: 60vw; /* Ensure the minimum width is the same as the max-width */
+    text-align: justify; /* Optional: Center text inside the wrapper */
+    margin: 0 auto;   /* Horizontally center the content */
+    box-sizing: border-box;  /* Include padding and border in the element's total width */
+    padding: 1.5rem;
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 15px;       /* Optional: Rounded corners */
+    
+}
+
+.story-beat-header {
+    display: flex;        /* Use flexbox to align items in a row */
+    justify-content: space-between;  /* Optionally space them out */
+    align-items: center;  /* Vertically align the elements */
+  }
+
+  /* App.css or other stylesheet */
+
+
+.footerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #fff33b;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    width: 60%;
+    border-radius: 15px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .deleteButton {
+    margin-left: 1rem;
+  }
+  
+
+  .saveButton {
+margin-top: 0.5rem;
+  }
+
+/* General Button Style */
+button {
+    padding: 5px 10px;            /* Add padding for button size */
+    font-size: 12px;               /* Set a readable font size */
+    font-weight: bold;             /* Make the text bold for better visibility */
+    color: #000000;                   /* White text color */
+    background-color: #fff33b;     /* Green background color */
+    border: none;                  /* Remove default border */
+    border-radius: 5px;            /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor to indicate it's clickable */
+    transition: all 0.3s ease;     /* Smooth transition on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #fae900;     /* Darker green on hover */
+    transform: translateY(-2px);   /* Slight lift effect */
+  }
+  
+
+  
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+  }
+
+  .gap {
+    margin-left: 1rem;
+  }
+
+  h1 {
+    color: #fae900;
+    text-align: center;
+  }
+
+  /* Apply the fantasy font to the entire page */
+body {
+    font-family: 'Luminari','Fantasy', 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Apply the fantasy font to specific elements */
+  h2 {
+    font-family: 'Luminari', 'Fantasy', 'Trebuchet MS', sans-serif;
+  }
+  
+  p {
+    font-family: 'Luminari','Fantasy', 'Trebuchet MS', sans-serif;
+  }
+  
+  button {
+    font-family: 'Luminari','Fantasy', 'Trebuchet MS', sans-serif;
+  }
+  
