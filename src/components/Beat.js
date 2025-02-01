@@ -8,7 +8,7 @@ export default function Beat({
   showAllInput,
 }) {
   const [isEditing, setIsEditing] = useState(false);
-  const [inputText, setInputText] = useState("Your text goes here.");
+  const [inputText, setInputText] = useState("");
   const [showInput, setShowInput] = useState(false);
 
   // Check localStorage for existing input and load it when component mounts
@@ -30,8 +30,8 @@ export default function Beat({
   const handleDelete = () => {
     const confirmDelete = window.confirm("Are you sure you want to delete your input?");
     if (confirmDelete) {
-      setInputText("Your text goes here."); // Reset to default text
-      localStorage.setItem(name, "Your text goes here."); // Save default text to localStorage
+      setInputText(""); // Reset to default text
+      localStorage.setItem(name, ""); // Save default text to localStorage
     }
   };
 
@@ -42,6 +42,7 @@ export default function Beat({
   // Toggle between user input and explanation
   const toggleInputExplanation = () => {
     setShowInput(!showInput);
+    setIsEditing(false);
   };
 
   // Toggle editing mode
@@ -74,20 +75,24 @@ export default function Beat({
               value={inputText}
               onChange={handleChange}
               rows="8"
-              cols="125"
+              cols="105"
+              spellcheck="true"
+              resize="false"
+              placeholder="Write something."
             />
             {isVisible && (
-              <>
                 <button className="saveButton" onClick={toggleEditing}>Save</button>
-                <button className="deleteButton gap" onClick={handleDelete}>Delete</button>
-              </>
+        
             )}
           </div>
         ) : (
           <div>
             <p>{inputText}</p>
             {isVisible && (
+              <>
                 <button onClick={toggleEditing}>Edit</button>
+                {inputText !== "" && <button className="deleteButton gap" onClick={handleDelete}>Delete</button>}
+              </>
             )}
           </div>
         )

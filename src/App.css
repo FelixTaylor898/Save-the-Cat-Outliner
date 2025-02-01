@@ -38,6 +38,16 @@ html, body {
     margin: 0 auto;
 }
 
+textarea {
+  resize: none;
+  font-family: 'Luminari','Fantasy', 'Trebuchet MS', sans-serif;
+  font-size: 16px; 
+}
+
+p {
+  font-size: 16px;
+}
+
 .footer {
     background-color: #fff33b;
     padding: 10px;
@@ -47,7 +57,7 @@ html, body {
     width: 60%;
     border-radius: 15px;
     margin: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .gap {
